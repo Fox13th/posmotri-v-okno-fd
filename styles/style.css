@@ -99,6 +99,7 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
+  height: 534px;
   gap: 26px;
 }
 
@@ -117,4 +118,45 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
+}
+
+.search-form__fieldset-title {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0 0 5px;
+}
+
+.title {
+  font-family: Oswald;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 95%;
+  text-transform: uppercase;
+}
+
+.content__accent{
+  color: #545050;
+}
+
+.content__card-link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.content__video-card-title {
+  font-family: Oswald;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;     
+  text-overflow: ellipsis; 
+}
+
+.content__video-card-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden; 
+  line-height: 16.2px;
 }
