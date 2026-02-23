@@ -195,7 +195,7 @@ ol {
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #FFF;
-  outline-offset: 2px;  
+  outline-offset: 2px;
 }
 
 .search-form__fieldset > .search-form__label:hover {
